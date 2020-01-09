@@ -3,11 +3,11 @@
 
 
 #include <math.h>
-
+#include <cstring>
 
 std::string strstrip(const char * str)
 {
-  int len = strlen(str);
+  int len = std::strlen(str);
   if (len==0)
     {
       return std::string();
@@ -40,8 +40,8 @@ std::string strstrip(const char * str)
 
 template <class T>
 void printVector(const std::vector<T> & v,
-                 bool doAppendNewLine=true,
-                 std::ostream & os=std::cout)
+                 bool doAppendNewLine,
+                 std::ostream & os)
 {
   os << "[";
   std::copy(v.begin(), v.end(), std::ostream_iterator<T>(os," "));

@@ -23,7 +23,7 @@ std::string strstrip(const char * str);
 template <class T>
 void printVector(const std::vector<T> & v,
                  bool doAppendNewLine=true,
-                 std::ostream & os=std::cout);
+                 std::ostream & os= std::cout);
 
 
 

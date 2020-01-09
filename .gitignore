@@ -6,6 +6,8 @@
 *.pyc
 *.svg
 *.txt
+*.o
+a.out
 *~
 .#*
 build/
