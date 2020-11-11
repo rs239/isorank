@@ -7,7 +7,7 @@ The executable is available at: http://isorank.csail.mit.edu
 
 - The original IsoRank algorithm was presented in Singh, Xu and Berger (RECOMB 2007 & PNAS 2008) and is made available here as IsoRank-Orig-2008
 
-- An improved and more generalized version, as the IsoRank-N algorithm, were presented by Liao et al. (Bioinformatics 2009). The original implementation was by Prof. Chung-Shou Liao and Kanghao Lu. Later, students in Prof. Liao's lab made further improvements to the algorithm, especially  Cheng-Yu Ma and Guan-Chung Chen. This codebase is made available here as IsoRankN-2018. 
+- An improved and more generalized version, as the IsoRank-N algorithm, were presented by Liao et al. (Bioinformatics 2009). The original implementation was by Prof. Chung-Shou Liao and Kanghao Lu. Later, students in Prof. Liao's lab made further speed improvements to the algorithm, especially Cheng-Yu Ma and Guan-Chung Chen. This codebase is made available here as IsoRankN-2018. 
 
 - The executable available at http://isorank.csail.mit.edu corresponds to the IsoRank-N algorithm.
 
